@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jogo da Velha</title>
+    <link rel="stylesheet" href="estilo.css">
+    <script defer src="script.js"></script>
+    <link rel="icon" href="icone.jpeg" sizes="16x16" type="image">
+</head>
+
+<body>
+    <section id="winners">
+        <div>
+            <h2>Fim de Jogo</h2>
+            <p>O vencedor foi:
+                <span id="vencedor"></span>
+            </p>
+            <h2>Placar:</h2>
+            <p id="placar1"></p>
+            <p id="placar2"></p>
+            <button>MAIS UM</button>
+        </div>
+
+    </section>
+
+    <header>
+        <h1>Jogo da Velha 👵🏻</h1>
+    </header>
+
+    <section id="inputs">
+        <h2>Diga seu nome e o simbolo que quer usar no Jogo</h2>
+
+        <div>
+            <label>Jogador 1</label>
+            <input class="nome" type="text" placeholder="Nome">
+            <input class="simbolo" type="text" placeholder="Simbolo" maxlength="1">
+        </div>
+
+        <div>
+            <label>Jogador 2</label>
+            <input class="nome" type="text" placeholder="Nome">
+            <input class="simbolo" type="text" placeholder="Simbolo" maxlength="1">
+        </div>
+
+        <button><img src="simbolo.jpeg" alt=""></button>
+
+    </section>
+
+    <section id="tabuleiro">
+        <div class="linha">
+            <div class="casa"></div>
+            <div class="casa"></div>
+            <div class="casa"></div>
+        </div>
+
+        <div class="linha">
+            <div class="casa"></div>
+            <div class="casa"></div>
+            <div class="casa"></div>
+        </div>
+
+        <div class="linha">
+            <div class="casa"></div>
+            <div class="casa"></div>
+            <div class="casa"></div>
+        </div>
+    </section>
+</body>
+
+</html>
